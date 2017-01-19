@@ -1,0 +1,11 @@
+* {
+    background-color: rgb(56, 40, 64);
+    font-family: playball;
+    color: white;
+    font-size: 20px;
+}
+
+nav {
+    padding: 0 10px;
+    position: relative;
+}
