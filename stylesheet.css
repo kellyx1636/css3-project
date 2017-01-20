@@ -9,7 +9,7 @@
 /*nav {*/
 /*    padding: 0 10px;*/
 /*    position: relative;*/
-    /*display: inline-block;*/
+/*    display: block;*/
 /*}*/
 
 /*.wrap {*/
@@ -28,7 +28,7 @@
 
 /*.menu li a {*/
 /*    color: #444;*/
-/*    display: inline-block;*/
+/*    display: block;*/
 /*    line-height: 20px;*/
 /*    padding: 6px 12px;*/
 /*    margin: 8px 8px;*/
@@ -36,5 +36,15 @@
 /*    text-decoration: none;*/
 /*}*/
 
+/* Persistent Hover State */
+/*.menu li:hover a {*/
+/*    color: #222;*/
+/*}*/
+/*.menu li:hover ul a {*/
+/*    background: none;*/
+/*}*/
+/*.menu li:hover ul li a:hover {*/
+
+/*}*/
 
 
