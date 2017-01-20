@@ -6,32 +6,35 @@
 }
 
 /*Website for learning how to make menu: http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3/#*/
-nav {
-    padding: 0 10px;
-    position: relative;
-}
+/*nav {*/
+/*    padding: 0 10px;*/
+/*    position: relative;*/
+    /*display: inline-block;*/
+/*}*/
 
-.wrap {
-    width: 940px;
-    margin: 4em auto;
-}
+/*.wrap {*/
+/*    width: 940px;*/
+/*    margin: 4em auto;*/
+/*}*/
 
-.clearfix {
-    clear: both;
-}
+/*.clearfix {*/
+/*    clear: both;*/
+/*}*/
 
-.menu li {
-    float: left;
-    position: relative;
-}
+/*.menu li {*/
+/*    float: left;*/
+/*    position: relative;*/
+/*}*/
+
+/*.menu li a {*/
+/*    color: #444;*/
+/*    display: inline-block;*/
+/*    line-height: 20px;*/
+/*    padding: 6px 12px;*/
+/*    margin: 8px 8px;*/
+/*    vertical-align: middle;*/
+/*    text-decoration: none;*/
+/*}*/
 
 
-.menu li a {
-    color: #444;
-    display: inline-block;
-    line-height: 20px;
-    padding: 6px 12px;
-    margin: 8px 8px;
-    vertical-align: middle;
-    text-decoration: none;
-}
+
