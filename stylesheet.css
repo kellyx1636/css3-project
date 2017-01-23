@@ -10,7 +10,8 @@
 .images {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    /*How much of the border is colored*/
+    border-radius: 100%;
     overflow: hidden;
     position: relative;
     cursor: default;
@@ -43,8 +44,22 @@
     background-image: url(../Racoon.jpeg);
 }
 
+.img-content p {
+    color: 0;
+    padding: 10px 5px;
+    margin: 0 30px;
+    border-top: 1px solid rgba(0,  0, 0, 0);
+    transition: all 1s ease-in-out;
+}
 
-/*Website for learning how to make menu: http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3/#*/
+/*How links will look*/
+.img-content p a {
+    color: rgb(0, 255, 250);
+}
+
+
+/
+*Website for learning how to make menu: http://www.webdesignerdepot.com/2012/08/create-a-stunning-menu-in-css3/#*/
 /*nav {*/
 /*    padding: 0 10px;*/
 /*    position: relative;*/
