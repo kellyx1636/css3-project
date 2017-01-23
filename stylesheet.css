@@ -8,8 +8,10 @@
     
 }
 
-.h1 {
- font-size: 30px;   
+/*Animation*/
+@keyframes h1 {
+    from {color: red;}
+    to {color: yellow;}
 }
 
 /*Website: http://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/ */
@@ -42,10 +44,10 @@
 
 .images {
     width: 100%;
-    height: 100%;
+    height: 90%;
     /*How much of the border is colored*/
     border-radius: 100%;
-    overflow:56, 40, 64;
+    overflow: 56, 40, 64;
     position: relative;
     cursor: default;
     /*Controls size and color of container. inset (size) (color)*/
@@ -79,8 +81,8 @@
 
 .img-content p {
     color: 0;
-    padding: 10px 5px;
-    margin: 0 30px;
+    padding: 5px 10px;
+    margin: 0 50px;
     border-top: 5px solid rgba(0,  0, 0, 0);
     transition: all 1s ease-in-out;
 }
